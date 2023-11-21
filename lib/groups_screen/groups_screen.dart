@@ -43,6 +43,7 @@ class _GroupsScreenState extends State<GroupsScreen> {
         resizeToAvoidBottomInset: false,
         backgroundColor: Colors.white,
         appBar: AppBar(
+          automaticallyImplyLeading: false,
           title: Text('Список групп'),
         ),
         body: Center(

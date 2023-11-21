@@ -37,6 +37,7 @@ class _SheduleScreenState extends State<SheduleScreen> with SingleTickerProvider
         resizeToAvoidBottomInset: false,
         backgroundColor: Colors.white,
         appBar: AppBar(
+          automaticallyImplyLeading: false,
           title: Text(
             group
           ),
@@ -63,7 +64,7 @@ class _SheduleScreenState extends State<SheduleScreen> with SingleTickerProvider
               ),
               
               SizedBox(
-                height: screenHeight * 0.75,
+                height: screenHeight * 0.74,
                 child: FutureBuilder(
                   future: _future ,
                   builder: (context, snapshot) {
